@@ -18,9 +18,11 @@ A list of technologies used within the project:
 *
 Copiar y pegar los archivos en la capeta principal del servidor
 
-$ git clone https://github.com/jacobojerome/duck-hack-web.git
+$ git clone https://github.com/addh-duck-hack/Duck-Hack-Web.git
 
 ## FAQs
 *
 Se puede utilizar la plantilla para su propio sitio web, solo con colaboracion a https://duck-hack.com
 Si necesita mas información se puede comunicar con:
+-Correo: administrador@duck-hack.com
+-Tel: 771-381-8263
