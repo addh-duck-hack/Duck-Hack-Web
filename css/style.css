@@ -6,6 +6,10 @@ body {
     background-color: #2A4961;
 }
 
+.color-light-blue-background{
+    background-color: #66CAF2;
+}
+
 .color-dark-blue{
     color: #4AA2D9;
 }
@@ -55,7 +59,12 @@ body {
     margin-bottom: 5em;
 }
 
+.border-custom {
+    border-radius: 2em;
+}
+
 .section3 > div > div > img{
+    margin-left: 12.5%;
     width: 75%;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
@@ -64,6 +73,34 @@ body {
 .padding-custom {
     padding-top: 5em;
     padding-bottom: 5em;
+}
+
+.padding-soft{
+    padding: 3em 2em 3em 2em;
+}
+
+.button-details {
+    background-color: #4AA2D9;
+    text-decoration: none;
+    color: #d8d8d8;
+    border-radius: 1em;
+    padding: 1em 1em;
+    margin-left: 1em;
+    text-transform: uppercase;
+    font-size: .80em;
+}
+
+.button-details:hover{
+    background: none;
+    border-style: solid;
+    border-color: #4AA2D9;
+    color: #4AA2D9;
+    text-decoration: none;
+    border-radius: 1em;
+    padding: 1em 1em;
+    margin-left: 1em;
+    text-transform: uppercase;
+    font-size: .80em;
 }
 
 .button-start{
@@ -132,3 +169,28 @@ body {
     font-weight: 900;
     font-style: normal;
 }
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-bloc;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
