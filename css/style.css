@@ -59,10 +59,25 @@ body {
     margin-bottom: 5em;
 }
 
+.margin-over{
+    margin-top: -60px;
+    margin-bottom: 60px;
+}
+
+.margin-over2{
+    margin-top: -120px;
+    margin-bottom: 120px;
+}
+
 .border-custom {
     border-radius: 2em;
 }
 
+.image-section {
+    margin-left: 12.5%;
+    width: 75%;
+    border-radius: 1em;
+}
 
 .section3 > div > div > img, .image-custom{
     margin-left: 12.5%;
@@ -80,27 +95,39 @@ body {
     padding: 3em 2em 3em 2em;
 }
 
+.padding-normal{
+    padding: 2em 2em 2em 2em;
+}
+
 .big-icon{
     font-size: 6em!important;
     color: #4AA2D9;
     margin-bottom: .4em;
 }
 
-
-.button-expanded{
-    width: 100%;
-    background-color: #2A4961;
-    padding: .5em 1em;
-    border-bottom: #4AA2D9 2px solid;
-    align-items: center;
-    text-align: left;
-    text-decoration: none;
-    color: #d8d8d8;
+.normal-icon{
+    font-size: 4em!important;
+    color: #4AA2D9;
+    margin-bottom: .4em;
 }
 
-.card-body {
-    background-color: #2A4961;
+.accordion-custom{
     color: #d8d8d8;
+    background-color: #2A4961;
+    border-bottom: 3px solid #4AA2D9;
+    margin-bottom: 20px;
+    border-radius: 0%;
+}
+
+.accordion-flush .accordion-item:last-child{
+    border-bottom: 3px solid #4AA2D9;
+}
+
+.accordion-button-custom{
+    
+    color: #d8d8d8;
+    background-color: #2A4961;
+    
 }
 
 .button-details {
@@ -123,6 +150,11 @@ body {
     width: 100%;
 }
 
+.separator2{
+    height: .5em;
+    width: 100%;
+}
+
 .button-details>span{
     margin-left: auto;
 }
@@ -130,6 +162,32 @@ body {
 .button-details:hover{
     background: none;
     color: #4AA2D9;
+}
+
+.button-2{
+    background-color: #4AA2D9;
+    text-decoration: none;
+    color: #d8d8d8;
+    border-radius: 1em;
+    padding: 1em 1em;
+    text-transform: uppercase;
+    font-size: 1em;
+    display: flex;
+    width: 11%;
+}
+
+.button-2:hover{
+    background: none;
+    border-style: solid;
+    border-color: #4AA2D9;
+    color: #4AA2D9;
+    text-decoration: none;
+    border-radius: 1em;
+    border-width: 1px;
+    padding: 1em 1em;
+    display: flex;
+    text-transform: uppercase;
+    font-size: 1em;
 }
 
 .button-start{
